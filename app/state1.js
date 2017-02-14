@@ -31,7 +31,7 @@ demo.state1.prototype = {
 
         cursors = game.input.keyboard.createCursorKeys();
 
-     },
+     }, 
     update: function(){
         game.physics.arcade.collide(adam, rocks, function(){
             console.log("hitting rocks");
